@@ -79,9 +79,15 @@ A continuación, se presenta un listado de procedimientos almacenados para la ge
    - Ejecuta los procedimientos según las necesidades de tu gestión de RRHH.
 
 ---
+## ⚙️ ER
+
+![image](https://github.com/user-attachments/assets/71950a06-dbed-4fe8-8d64-56d748d955ba)
+
+---
 
 ## 💡 Notas adicionales
 
 SoftTechnicalRH está diseñado para una fácil expansión. Puedes agregar o modificar procedimientos almacenados con mínimas adaptaciones en la estructura actual, lo que lo hace una solución flexible para las empresas en crecimiento.
 
 ---
+
