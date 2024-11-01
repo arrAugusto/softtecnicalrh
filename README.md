@@ -1,37 +1,66 @@
-🌐 SoftTechnicalRH
-La solución integral para la gestión de Recursos Humanos.
-Facilita el seguimiento de empleados, evaluaciones y más desde una sola plataforma.
 
-📋 Descripción
-SoftTechnicalRH es un sistema de gestión de recursos humanos diseñado para optimizar la administración de datos relacionados con el personal, evaluaciones de desempeño, permisos, proyectos y capacitaciones. Su estructura se basa en procedimientos almacenados en MySQL para facilitar consultas y actualizaciones eficientes.
+# 🌐 SoftTechnicalRH
 
-🎯 ¿Por qué usar SoftTechnicalRH?
-🚀 Agiliza la gestión: Accede y organiza la información de forma rápida y eficiente.
-📈 Centraliza los datos: Toda la información de RRHH en un solo lugar.
-🔄 Escalable: Perfecto para empresas en crecimiento, con capacidad para expandirse.
-🧩 Procedimientos del sistema
-📝 Procedimientos sin parámetros
-Departamentos: CALL SELECT_DEPARTAMENTO_RECORD();
-Puestos: CALL SELECT_PUESTO_RECORD();
-Empleados: CALL SELECT_EMPLEADO_RECORD();
-📌 Procedimientos con parámetros
+### La solución integral para la gestión de Recursos Humanos
+
+SoftTechnicalRH facilita el seguimiento de empleados, evaluaciones, permisos, y mucho más desde una sola plataforma centralizada.
+
+---
+
+## 📋 Descripción
+
+**SoftTechnicalRH** es un sistema de gestión de recursos humanos diseñado para optimizar la administración de datos relacionados con el personal, evaluaciones de desempeño, permisos, proyectos y capacitaciones. Su arquitectura se basa en procedimientos almacenados en **MySQL**, lo que permite realizar consultas y actualizaciones de datos de manera rápida y eficiente.
+
+---
+
+## 🎯 ¿Por qué usar SoftTechnicalRH?
+
+- **🚀 Agiliza la gestión:** Accede y organiza la información de recursos humanos rápidamente.
+- **📈 Centraliza los datos:** Mantén toda la información de RRHH en un solo lugar.
+- **🔄 Escalable:** Perfecto para empresas en crecimiento, con capacidad de expansión.
+
+---
+
+## 🧩 Procedimientos del Sistema
+
+### Procedimientos almacenados
+
+A continuación, se presenta un listado de procedimientos almacenados para la gestión de recursos humanos en SoftTechnicalRH. Estos procedimientos se clasifican en dos grupos: **procedimientos sin parámetros** y **procedimientos con parámetros**. 
+
+#### Procedimientos sin parámetros
+1. **Departamentos**: `CALL SELECT_DEPARTAMENTO_RECORD();`
+2. **Puestos**: `CALL SELECT_PUESTO_RECORD();`
+3. **Empleados**: `CALL SELECT_EMPLEADO_RECORD();`
+
+#### Procedimientos con parámetros
+
 Para utilizar estos procedimientos, reemplaza el valor de ejemplo con el que corresponda:
 
-Proveedores de Servicios: CALL SELECT_PROVEEDORSERVICIOS_RECORD(1);
-Servicios Proveídos: CALL SELECT_SERVICIOSPROVEIDOS_RECORD(1);
-Evaluación de Desempeño: CALL SELECT_EVALUACIONDESEMPENO_RECORD(1);
-(... y más procedimientos según las necesidades de RRHH)
+1. **Proveedores de Servicios**: `CALL SELECT_PROVEEDORSERVICIOS_RECORD(<ID_PROVEEDOR>);`
+2. **Servicios Proveídos**: `CALL SELECT_SERVICIOSPROVEIDOS_RECORD(<ID_SERVICIO>);`
+3. **Evaluación de Desempeño**: `CALL SELECT_EVALUACIONDESEMPENO_RECORD(<ID_EVALUACION>);`
+4. *(... y más procedimientos según las necesidades de RRHH)*
 
-⚙️ Instalación y Configuración
-📂 Clonar el repositorio:
+---
 
-bash
-Copiar código
-git clone [URL_DEL_REPOSITORIO]
-🔌 Conectar a MySQL y ejecutar el script de creación de base de datos y los procedimientos almacenados.
+## ⚙️ Instalación y Configuración
 
-💾 Ejecutar procedimientos según las necesidades de tu gestión de RRHH.
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [URL_DEL_REPOSITORIO]
+   ```
 
-💡 Notas adicionales
-Este sistema está diseñado para una fácil expansión. Agregar o modificar procedimientos es posible con mínimas adaptaciones en la estructura actual.
+2. **Configurar la base de datos en MySQL**:
+   - Conéctate a MySQL.
+   - Ejecuta el script de creación de la base de datos y los procedimientos almacenados incluidos en el proyecto.
 
+3. **Ejecución**:
+   - Ejecuta los procedimientos según las necesidades de tu gestión de RRHH.
+
+---
+
+## 💡 Notas adicionales
+
+SoftTechnicalRH está diseñado para una fácil expansión. Puedes agregar o modificar procedimientos almacenados con mínimas adaptaciones en la estructura actual, lo que lo hace una solución flexible para las empresas en crecimiento.
+
+---
