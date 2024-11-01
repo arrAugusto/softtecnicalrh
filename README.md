@@ -68,7 +68,7 @@ A continuación, se presenta un listado de procedimientos almacenados para la ge
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone [[URL_DEL_REPOSITORIO]](https://github.com/arrAugusto/softtecnicalrh.git -b main
    ```
 
 2. **Configurar la base de datos en MySQL**:
